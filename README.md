@@ -1,6 +1,6 @@
 ## BrowserSnatch
 Gather credentials from Chrome based browsers on Windows
-- built using .NET 6 but will run on the default .NET 4 
+- built using .NET 6 but will run on Windows 10/11 where .NET ~4 is present by default
 
 ![scrnsht1](./Images/screenshot1.png)
 
@@ -16,7 +16,7 @@ dotnet add package System.Data.SQLite
 dotnet add package System.Text.Json
 ```
 
-Build
+Publish
 ```
 dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true -p:PublishTrimmed=true
 ```
