@@ -56,3 +56,6 @@ C:\Users\admin\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies
 - [Unit 42: Credential Gathering From Third-Party Software](https://unit42.paloaltonetworks.com/credential-gathering-third-party-software/#post-124901-_uoyret6muycd)
     - [Example Code: Python Passwords](https://www.thepythoncode.com/article/extract-chrome-passwords-python)
     - [Example Code: Pyhton Cookies](https://www.thepythoncode.com/article/extract-chrome-cookies-python)
+
+
+![leafy](./Images/Leafy.jpg)
