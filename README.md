@@ -1,8 +1,13 @@
 ## BrowserSnatch
-Gather credentials from Chrome based browsers on Windows
+Gather credentials and cookies from Chrome based browsers on Windows
 - built using .NET 6 but will run on Windows 10/11 where .NET ~4 is present by default
 
 ![scrnsht1](./Images/screenshot1.png)
+
+#### Targets
+- Chrome
+- Edge
+- Opera
 
 ## Build
 Install .NET 6
