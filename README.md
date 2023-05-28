@@ -1,13 +1,8 @@
 ## BrowserSnatch
-Gather credentials and cookies from Chrome based browsers on Windows
-- built using .NET 6 but will run on Windows 10/11 where .NET ~4 is present by default
+Gather credentials from Chrome based browsers on Windows
+- built using .NET 6 but will run on the default .NET 4 
 
 ![scrnsht1](./Images/screenshot1.png)
-
-#### Targets
-- Chrome
-- Edge
-- Opera
 
 ## Build
 Install .NET 6
@@ -21,7 +16,7 @@ dotnet add package System.Data.SQLite
 dotnet add package System.Text.Json
 ```
 
-Publish
+Build
 ```
 dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true -p:PublishTrimmed=true
 ```
@@ -49,6 +44,7 @@ C:\Users\admin\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies
 ```
 #### To Do
 - [ ] Clean
+- [ ] Remove dll
 - [ ] Fix Format for Date/Time "Last Used"
 - [ ] Firefox support
 
@@ -58,4 +54,4 @@ C:\Users\admin\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies
     - [Example Code: Pyhton Cookies](https://www.thepythoncode.com/article/extract-chrome-cookies-python)
 
 
-![leafy](./Images/Leafy.jpg)
+![leafy](./Images/Leafy2.jpg)

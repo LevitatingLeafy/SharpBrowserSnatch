@@ -331,9 +331,9 @@ namespace SQLite
                   // Pass to AES Decrypt
                   Console.WriteLine(aesObj.AesDecrypt(cookie, iv, tag));
                   }
-                  catch (InvalidCastException e)
+                  catch (Exception e)
                   {
-                     Console.Write("None");
+                     Console.WriteLine($"Error: {0}", e);
                   }
 
                }
