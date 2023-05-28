@@ -54,4 +54,4 @@ C:\Users\admin\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies
     - [Example Code: Pyhton Cookies](https://www.thepythoncode.com/article/extract-chrome-cookies-python)
 
 
-![leafy](./Images/Leafy2.jpg)
+![leafy](./Images/Leafy.jpg)
