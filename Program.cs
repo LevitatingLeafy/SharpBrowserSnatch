@@ -73,6 +73,11 @@ namespace SQLite
             {
                GetCreds(ls, ld, c);
             }
+            else
+            {
+               Console.WriteLine("Files not found"); // Need to address 
+            }
+             
          }
 
       }

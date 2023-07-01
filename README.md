@@ -2,6 +2,11 @@
 Gather credentials from Chrome based browsers on Windows
 - built using .NET 6 but will run on the default .NET 4 
 
+> **Note**
+> After a recent [update to Chrome](https://www.bleepingcomputer.com/news/security/google-chrome-password-manager-gets-new-safeguards-for-your-credentials/) (and its derivatives)
+> it appears that users need to enter their credentials to access their passwords so this code will fail
+> however it appears to still work for Edge
+
 ![scrnsht1](./Images/screenshot1.png)
 
 ## Build
@@ -43,10 +48,10 @@ Encrypted cookies
 C:\Users\admin\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies
 ```
 #### To Do
-- [ ] Clean
-- [ ] Remove dll
+- [ ] Clean Code
+- [ ] Address latest [update](https://www.bleepingcomputer.com/news/security/google-chrome-password-manager-gets-new-safeguards-for-your-credentials/)
+- [ ] Get rid of SQLite dll
 - [ ] Fix Format for Date/Time "Last Used"
-- [ ] Firefox support
 
 #### Resources that inspired the project
 - [Unit 42: Credential Gathering From Third-Party Software](https://unit42.paloaltonetworks.com/credential-gathering-third-party-software/#post-124901-_uoyret6muycd)
